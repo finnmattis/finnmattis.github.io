@@ -1,0 +1,26 @@
+name: publish-website
+
+on:
+  # Trigger the workflow on push to main branch
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
+    with:
+      environment_file: 'environment.yml'
+      environment_name: website-env
+      path_to_notebooks: ''
+      build_command: 'jupyter-book build .'
+      output_path: '_build/html'
+  deploy:
+    needs: build
+    uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
+    with:
+      publish_dir: "website/_build/html"

@@ -1,0 +1,5 @@
+name: website-env
+channels: 
+  - conda-forge
+dependencies: 
+  - jupyter-book
