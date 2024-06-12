@@ -14,4 +14,4 @@ EvidenceBench is a comprehensive benchmark designed for extracting evidence from
 
 ## Legal
 
-EvidenceBench uses the Apache 2.0 license for code found on the associated GitHub repo and the Creative Commons Attribution 4.0 license for data hosted on HuggingFace. 
+EvidenceBench uses the Apache 2.0 license for code found on the associated GitHub repo and the Creative Commons Attribution 4.0 license for data hosted on HuggingFace. a
