@@ -7,6 +7,7 @@ EvidenceBench is a comprehensive benchmark designed to test Large Language Model
 * [Quickstart](https://finnmattis.github.io/quickstart.html)
 * [Dataset Information](https://finnmattis.github.io/dataset.html)
 * [Example Usage](https://finnmattis.github.io/example.html)
+* [Results](https://finnmattis.github.io/results.html)
 
 ## References
 
