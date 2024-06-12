@@ -16,7 +16,7 @@ jobs:
     with:
       environment_file: 'environment.yml'
       environment_name: website-env
-      path_to_notebooks: '.'
+      path_to_notebooks: ''
       build_command: 'jupyter-book build .'
       output_path: '_build/html'
   deploy:
