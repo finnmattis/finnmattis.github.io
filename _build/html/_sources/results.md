@@ -2,7 +2,8 @@
 
 EvidenceBench offers 4 different tasks. Evidence Retrival (ER) tasks ask a model to find a evidence for a hypothesis using the entire paper while Result Evidence Retrival (Result ER) tasks only tasks the model with pulling sentences from the resulsts section. The ER tasks are broken up into the ER @ Optimal task in which the model stops being prompted once it has reached the smallest (optimal) number of sentences needed to support the hypothesis and ER @ 10 which stops prompting the model after 10 sentences. The Result ER tasks are broken up into Result ER @ Optimal and Result ER @ 5 which stops prompting the model after 5 sentences.
 
-These results used 
+These results represent the peak performance of each model for each task, utilizing the prompting strategies of Chain of Thought (CoT), In-Context Learning (ICL), and Section-by-Section.
+
 
 | Model           | ER @ optimal | ER @ 10 | Result ER @ optimal | Result ER @ 5 |
 |-----------------|--------------|---------|---------------------|---------------|
