@@ -1,17 +1,13 @@
 # EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers
 
-EvidenceBench is a comprehensive benchmark designed for extracting evidence from biomedical papers, specifically targeting the validation of scientific hypotheses. Developed by a team of experts, it includes over 400 fully annotated papers and 700,000 sentence judgments, leveraging expert annotations to match hypotheses with relevant evidence. The benchmark aims to automate evidence synthesis and hypothesis testing, utilizing a pipeline powered by Large Language Models (LLMs) to align hypotheses with evidence from papers. This dataset supports the development of advanced tools for long-context reasoning and retrieval in biomedical research, offering a standardized framework for evaluating language models and information retrieval systems.
+EvidenceBench is a comprehensive benchmark designed to test Large Language Models (LLMs) ability to extract relevant evidence from biomedical papers. Finding relevant evidence is a necessary precursor for evaluating the validity of a scientific hypothosis, and for applications such as automated meta-anaylses and scientifically grounded question-answering systems. EvidenceBench includes over 400 fully annotated papers and 700,000 sentence judgments, leveraging expert annotations to match hypotheses with relevant evidence. The performance of the best models still falls significantly short of expert-level on this task. By providing a standardized benchmark and evaluation framework, this EvidenceBench will support the development of tools which automate evidence synthesis and hypothesis testing.
 
 # Getting Started
 
-* [Quickstart](https://finnmattis.github.io//ClimSim/quickstart.html)
-* [Dataset Information](https://finnmattis.github.io//ClimSim/dataset.html)
-* [Code Installation](https://finnmattis.github.io//ClimSim/installation.html)
+* [Quickstart](https://finnmattis.github.io/quickstart.html)
+* [Dataset Information](https://finnmattis.github.io/dataset.html)
+* [Example Usage](https://finnmattis.github.io/example.html)
 
 ## References
 
 * [EvidenceBench paper](https://arxiv.org/abs/2306.08754)
-
-## Legal
-
-EvidenceBench uses the Apache 2.0 license for code found on the associated GitHub repo and the Creative Commons Attribution 4.0 license for data hosted on HuggingFace. a

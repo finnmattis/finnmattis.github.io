@@ -6,3 +6,4 @@ root: README
 chapters:
 - file: quickstart
 - file: dataset
+- file: example
